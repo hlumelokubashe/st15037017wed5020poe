@@ -6,8 +6,39 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
+    <main><section>
+    <h2>Learn More About Us</h2>
+    
+    <button class="accordion">What is our Mission?</button>
+    <div class="panel">
+        <p>The Smile Foundation is a South African non-governmental organization that assists children with any facial conditions.</p>
+    </div>
+
+    <button class="accordion">Who do we help?</button>
+    <div class="panel">
+        <p>We help children in need of plastic and reconstructive surgery for conditions like cleft lip and palate.</p>
+    </div>
+</section></main>
         <h2>Heading title</h2>
        <p>Our mission is to ensure that every child in South Africa living with facial paralysis, cleft lip, cleft palate, craniofacial abnormalities, burn wounds, or ear, nose, and hand conditions receives the specialised care they need to live a healthier, happier life.</p>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
 </body>
 </html>
