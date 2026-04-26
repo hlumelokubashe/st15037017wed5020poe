@@ -70,3 +70,19 @@ A 5-page website developed for the smile Foundation to facilities surgical enqui
 * Integrated Flexbox layout for the navigation menu to improve desktop usability (Section 2.4).
 * Linked the external stylesheet to all 5 HTML pages using `<link>`.
 <img> src="phone.png" alt="Phone Image">
+
+## Project Changelog
+
+### Phase 1: Layout & Design
+* Created 5-page site structure (Home, About, Services, Enquiry, Contact).
+* Implemented Responsive Design using Flexbox and Media Queries.
+* Applied Smile Foundation branding (Blue #0056b3 and Yellow #ffcc00).
+
+### Phase 2: SEO & Functionality (Part 3)
+* Added Meta Description, Keywords, and Author tags to all HTML files.
+* Cleaned up HTML document structure for better SEO ranking.
+* Added JavaScript validation to the Patient Enquiry form.
+
+### Phase 3: Deployment
+* Published project to GitHub.
+* Successfully deployed live site via GitHub Pages.
