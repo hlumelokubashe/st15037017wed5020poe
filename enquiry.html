@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <h2>Patient Enquiry Form</h2>
+    <p>Please fill out the form below and our team will get back to you as soon as possible.</p>
+
+    <form action="#" method="post">
+        <label for="parent_name">Parent/Guardian Full Name:</label><br>
+        <input type="text" id="parent_name" name="parent_name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="condition">Type of Condition:</label><br>
+        <select id="condition" name="condition">
+            <option value="cleft_lip">Cleft Lip / Palate</option>
+            <option value="burns">Severe Burns</option>
+            <option value="craniofacial">Craniofacial Abnormalities</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="message">Briefly describe the child's needs:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+        <button type="submit">Submit Enquiry</button>
+    </form>
+</main>
+</body>
+</html>
